@@ -3,8 +3,8 @@ resource "aws_instance" "test" {
   instance_type = "t2.micro"
 }
 
-tags = {
-  Name = var.Name
+  tags = {
+    Name = var.Name
 }
 
 variable "Name" {}
