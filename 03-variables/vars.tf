@@ -6,3 +6,8 @@ variable "x" {
 
 #Declare variable without value
 variable "y" {}
+
+# Print Variable
+output "x" {
+  value = var.x
+}
