@@ -1,6 +1,6 @@
 resource "aws_instance" "test" {
   ami           = "ami-09c813fb71547fc4f"
-  instance_type = "t2.micro"
+  instance_type = var.instance_type
 
   tags = {
     Name = var.Name
@@ -8,3 +8,4 @@ resource "aws_instance" "test" {
 }
 
 variable "Name" {}
+variable "instance_type" {}
