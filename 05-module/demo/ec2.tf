@@ -5,6 +5,7 @@ resource "aws_instance" "test" {
 
   tags = {
     Name = var.Name
+  }
 }
 
 variable "Name" {}
