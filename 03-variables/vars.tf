@@ -46,7 +46,7 @@ output "env" {
   value = var.env
 }
 
-# *.auto.tfvars are the files which will pick automatically
+# *.auto.tfvars are the files which will pick automatically. Along with this if the filename is terraform.auto.tfvars then also terraform picks this vars file automatically, No need to specify exclusively
 variable "common" {}
 output "common" {
   value = var.common
