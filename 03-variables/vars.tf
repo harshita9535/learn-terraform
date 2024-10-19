@@ -30,3 +30,11 @@ output "y" {
 output "z" {
   value = var.z_map
 }
+
+output "y_2" {
+  value = var.y_list
+}
+
+output "z_x" {
+  value = var.z_map["x"]
+}
