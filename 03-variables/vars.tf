@@ -31,7 +31,7 @@ output "z" {
   value = var.z_map
 }
 
-output "y_2" {
+output "y_1" {
   value = var.y_list
 }
 
