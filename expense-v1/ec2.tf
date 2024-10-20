@@ -16,7 +16,7 @@ resource "aws_instance" "backend" {
   }
 }
 
-resource "aws_instance" "musql" {
+resource "aws_instance" "mysql" {
   ami           = var.ami
   instance_type = var.instance_type
   vpc_security_group_ids = var.security_groups
